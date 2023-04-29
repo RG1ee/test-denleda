@@ -19,7 +19,9 @@ python3.11 -m venv .venv
 poetry install
 pre-commit install
 denlada migrate
+```
 
-# Запуск
+## Запуск
+```bash
 delada runserver
 ```
