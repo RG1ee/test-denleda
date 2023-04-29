@@ -4,7 +4,7 @@ from src.apps.authors.api.serializers import AuthorSerializer
 from src.apps.books.models import Book
 
 
-class AllBookSerializer(serializers.ModelSerializer):
+class ListBookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
         fields = (
