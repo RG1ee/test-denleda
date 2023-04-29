@@ -7,7 +7,7 @@ cd test-denleda
 # Cкопируйте образец среды в `.env` и измените значения
 cat env_sample > .env
 
-# Собрать docker-compose
+# Собрать docker-compose с сервисом db
 docker-compose up --build -d db
 ```
 
@@ -21,7 +21,11 @@ pre-commit install
 denlada migrate
 ```
 
-## Запуск
+## Запуск сервера
 ```bash
 delada runserver
+```
+## Запуск тестов
+```bash
+pytest
 ```
