@@ -18,12 +18,12 @@ python3.11 -m venv .venv
 
 poetry install
 pre-commit install
-denlada migrate
+denleda migrate
 ```
 
 ## Запуск сервера
 ```bash
-delada runserver
+denleda runserver
 ```
 ## Запуск тестов
 ```bash
